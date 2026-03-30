@@ -1,0 +1,282 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: aliceblue;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0px 50px;
+   
+}
+a{
+    padding: 0px 4px;
+    text-decoration: none;
+    color: rgb(149, 52, 7);
+}
+a:hover{
+    color: rgb(215, 17, 17);
+}
+header{
+    border: 2px solid;
+    border-color: antiquewhite;
+    padding: 10px 0px;
+    box-shadow: 0 0 10px black;
+}
+.logo{
+    font-weight: 900;
+    display: flex;          /* Aligne horizontalement */
+    align-items: center;    /* Centre verticalement */
+    gap: 10px;              /* Espace entre le logo et le texte */
+}
+.lo{
+    width: 50px;
+    height: 50px;
+}
+span{
+    color: red;
+}
+.bouton{
+    cursor: pointer;
+    background-color: red;
+    color: beige;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+                                                                                                                           
+img {
+    width: 400px;
+    height: 400px;
+}
+.gauche{
+    padding: 0px 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.vehicules{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: 0;
+}
+.voitures{
+   
+    text-transform: uppercase;
+    font-size: 25PX;
+    position: relative;
+    text-align: center;
+}
+.voiture:before{
+    position: absolute;
+    bottom: 0;
+    left: 44%;
+    content: "";
+    background-color: red;
+    width: 13%;
+    height: 3px;
+    border-radius: 6px;
+
+}
+.voiture:after{
+    position: absolute;
+    top: 0;
+    left: 43%;
+    content: "";
+    background-color: red;
+    width: 13%;
+    height: 3px;
+    border-radius: 6px;
+
+}
+.nom{
+    text-transform:uppercase;
+    font-weight: 300;
+    color: rgb(221, 25, 25);
+    font-size: 25px;
+    font-style: oblique;
+    margin: 0px 100px;
+}
+.prix{
+    margin: 50px 100px;
+    font-size: 20px;
+    padding: 50px 15px;
+}
+.lien{
+    background-color: red;
+    color: beige;
+    margin: 0px 100px;
+    padding: 5px 10px;
+}
+table{
+    border: solid;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow:0 0 10px black;
+}
+.depanne{
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+}
+.plus{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    box-shadow:0 0 10px black;
+}
+section{
+    padding: 0px 300px;
+}
+
+.message{
+    width: 500px;
+    height: 670px;
+    margin-top: 40px;
+    border: 0px;
+    background-color:rgba(53, 20, 20, 0.729) ;
+    border-radius: 15px 15px 15px 15px;
+    margin: 0px 10px;
+}
+.cont{background-color:antiquewhite;
+margin:0px;
+padding: 0%;
+}
+.loc{
+    padding: 10px 150px;
+    margin: 10px 10px;
+}
+.btn{
+    background-color: red;
+    width: 500px;
+    color: beige;
+}
+input{
+    height: 20px;
+    width: 480px;
+}
+footer{
+    background-color: red;
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px;
+}
+textarea{
+    height: 400px;
+    width: 478px;
+
+}
+.voiture{
+   
+    text-transform: uppercase;
+    font-size: 25PX;
+    position: relative;
+    text-align: center;
+}
+.voiture:before{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+    content: "";
+    background-color: red;
+    width: 18%;
+    height: 3px;
+    border-radius: 6px;
+
+}
+.voiture:after{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    content: "";
+    background-color: red;
+    width: 19%;
+    height: 3px;
+    border-radius: 6px;
+
+}
+#submit{
+    background-color: white;
+    color: #318CE7;
+    border-radius: 20px;
+    width: 90%;
+    margin:10px 25px;
+    font-size: 17px;
+    border: 1px solid white;
+}
+#submit:hover{
+    color: white;
+    background-color: #318CE7;
+}
+input{
+    border: none;
+    outline: none;
+    background-color:white;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+@media (max-width: 768px){
+    nav, main, .vehicules{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.services{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+.service-card{
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.service-card h3{
+    color: red;
+    text-align: center;
+}
+
+.service-card p{
+    text-align: center;
+}
+
+summary{
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.logoi{
+     width: 60px;       /* Largeur du logo */
+    height: 60px;      /* Hauteur du logo */
+    border-radius: 50%; /* Transforme le carré en cercle */
+    object-fit: cover;  /* Pour que l’image garde ses proportions et remplisse le rond */
+    display: block;
+}
+@media (max-width: 768px){
+    .logoi{
+        width: 40px;
+        height: 40px;
+    }
+}
+.separe{
+    margin: 20px;
+}
